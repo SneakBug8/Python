@@ -12,6 +12,7 @@ def simple(n):
         o=n%i
         if(o==0):
             res=""
-    print (res)
+    if res!="":
+        print (res)
 for l in range(1,q):
     simple(l)
